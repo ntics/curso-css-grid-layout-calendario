@@ -13,36 +13,39 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="calendarStatus">
-        <button class="button is-secondary">Hoy</button>
-        <span class="calendarStatus-navigation">
-          <a href="#" class="button is-compact" aria-label="Semana anterior">
-            <i class="icon-chevronLeft" aria-hidden="true"></i>
+      <div class="header-primary">
+        <div class="header-logo">
+          <button class="button is-compact">
+            <i class="icon-hamburguerButton"></i>
+          </button>
+          <a href="/" alt="" aria-current="page" aria-label="Calendar" tabindex="-1">
+            <img src="./images/logo.png"  >
           </a>
-          <a href="#" class="button is-compact" aria-label="Siguiente semana">
-            <i class="icon-chevronRight" aria-hidden="true"></i>
-          </a>
-        </span>
-        <time class="calendarStstus-date" datetime="25-06-2021">25 de Junio</time>
+        </div>
+
+        <div class="calendarStatus">
+          <button class="button is-secondary">Hoy</button>
+          <span class="calendarStatus-navigation">
+            <a href="#" class="button is-compact" aria-label="Semana anterior">
+              <i class="icon-chevronLeft" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="button is-compact" aria-label="Siguiente semana">
+              <i class="icon-chevronRight" aria-hidden="true"></i>
+            </a>
+          </span>
+          <time class="calendarStstus-date" datetime="25-06-2021">25 de Junio</time>
+        </div>
       </div>
-      <select class="select" name="" id="">
-        <option value="1" selected>Semana</option>
-        <option value="2" selected>Día</option>
-      </select>
-        <button class="button">button</button>
-        <a href="#" class="button">button</a>
-        <a href="#" class="button is-primary">button</a>
-        <a href="#" class="button is-secondary">button</a>
-        <a href="#" class="button is-rounded">
-          <i class="icon-plus"></i>
-          <span>button</span>
+      <div class="header-secundary">
+        <select class="select" name="" id="">
+          <option value="1" selected>Semana</option>
+          <option value="2" selected>Día</option>
+        </select>
+        <a href="#user">
+          <img src="./images/user.png" alt="">
         </a>
-        <a href="#" class="button is-rounded is-shadowed">
-          <i class="icon-plus"></i>
-          button</a>
-        <a href="#" class="button is-compact">
-            <i class="icon-plus"></i>
-        </a>
+      </div>
+
 
     </header>
     <div class="sidebar"></div>
