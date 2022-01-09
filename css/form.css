@@ -1,0 +1,9 @@
+@import './input-search.css';
+@import './input-checkbox.css';
+
+.form{
+  position: relative;
+  --blockSize:2.5rem;
+   width: 12.25rem;
+}
+

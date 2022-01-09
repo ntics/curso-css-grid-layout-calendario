@@ -1,0 +1,62 @@
+.checkbox-status{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.checkbox-status .title h2{
+  font-size:.875rem;
+  color:var(--gray30);
+  padding-block:.125rem;
+  margin:0;
+}
+.checkbox-status .control i{
+  font-size:1.5rem;
+  color:var(--gray50);
+}
+.checkbox-status .control a{
+  text-decoration: none;
+  display: block;
+  line-height:0px;
+}
+
+.checkbox-list{
+  margin:0;
+  text-decoration: none;
+  padding:0;
+}
+.checkbox-wrapper{
+  display: flex;
+  align-items: center;
+}
+.checkbox-input{
+  margin:0;
+  block-size: 1.5rem;
+  inline-size:1.5rem;
+  appearance: none;
+  background-image: url('../icons/check.svg');
+  cursor: pointer;
+}
+.checkbox-input:checked{
+ background-image: url('../icons/check-square.svg');
+}
+.checkbox-wrapper label{
+  color:var(--gray30);
+  font-size:.8125rem;
+  padding-inline-start:.25rem;
+  padding-block: .125rem;
+  cursor: pointer;
+}
+
+
+
+ul.checkbox-list li{
+  margin-block-end:.75rem;
+}
+ul.checkbox-list li:first-child{
+  margin-block-start:.5rem;
+}
+ul.checkbox-list li:last-child{
+  margin-block-end: 0px;
+}
+
